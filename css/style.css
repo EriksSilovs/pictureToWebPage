@@ -1,0 +1,1241 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+
+#lang{
+    border: none;
+    background: none;
+    border:none;
+}
+
+#logoPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-top: -10%;
+    width:100%;
+    height:100%;
+    margin:auto auto;
+}
+
+#logoPart{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 9%;
+}
+
+#logoPart img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0% ;
+    min-height: 1%;
+    min-width: 1%;
+    padding-left: 3% ;
+    padding-right: 3% ;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 130px;
+    min-height: 44px ;
+} 
+
+
+.videoPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+    
+    top: 2%;
+} 
+
+.topLayer{
+    position: absolute;
+    top: 0%;
+    left: -3px;
+    height: auto;
+    width: 102%;
+}
+
+#rippedCover1 {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    margin-top:-31.5% ;
+}
+
+.rippedCover2{
+    transform: rotate(-180deg);
+    position: absolute;
+    height: auto;
+    width: 100%;
+    margin-top:-3% ;
+}
+
+.divForYellow{ 
+    background-color: white; 
+}
+
+.yellowRippedCover{
+    position: absolute;
+    display: flex;
+    align-items: center;
+  
+    margin-top: -20%;
+    width: 100%;
+    height: 500;
+}
+
+.beforeFooter{
+    background: #2F4858;
+    height: 100px;
+}
+
+#logo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 12%;
+    height: auto;
+    top: -0.5%;
+    left: 59px;
+}
+
+.navElements a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #060606;
+}
+ /* play btn izveide */
+.figure {
+    position: absolute;
+    left: 50.30%;
+    margin-left: -50px;
+    top: 50.5%;
+    margin-top: -50px;
+    height: 70px;
+    width: 70px;
+}
+
+.videoPart {
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.playBTN{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+    height: 80px;
+    width: 80px;
+}
+.playBTN:hover{
+    transform: scale(1.5);
+}
+  
+.navElements{
+    position: absolute;
+    justify-content: space-between;
+    top: 6.25%;
+    left: 22.5%;
+    right: 3%;
+    width: 100%;
+}
+
+
+
+.navElements a{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    padding-right: 32px;
+   
+    color: #060606;
+}
+
+.whitePartText{
+    padding: 26%;
+    padding-top: 11%;
+    padding-bottom: 11%;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    background-color: white;
+    color: #2F4858;
+}
+
+.picturePart {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    background-size: contain;
+
+}
+  
+
+.row1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    object-fit:cover;
+
+}
+
+.noPading {
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
+
+.gridForPic img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    width: 100%;
+}
+  
+
+.column1 div{
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    width: 100%;
+    
+
+}
+
+
+.column2 div{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    width: 100%;
+    
+}
+ 
+.buttonPart{
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+  
+    padding-top: 12%;
+    padding-bottom: 11%;
+}
+
+.buttonPart h1{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    color: #2F4858;
+    padding-bottom: 14px;
+}
+
+.buttonPart button{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+
+    border: none;
+    background-color: rgb(255, 168, 0);  
+    padding-left:60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+}
+
+.column1  div{
+    margin-top: 10%;
+    padding-right: 0% ; 
+    padding-left: 8% ; 
+}
+
+
+
+.column2  div{
+    margin-top: 7.25%;
+    padding-right: 20% ; 
+    padding-left: 19% ; 
+}
+
+form div{
+    display: block;
+    align-items: center;
+}
+
+.saziniesArMums h1{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    padding-bottom: 3%;
+
+    color: #2F4858;
+}
+
+form input, textarea {
+    border: none;
+    background-color: rgba(196, 196, 196, 0.4);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 5px;
+
+    font-family: "Montserrat" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+   
+    letter-spacing: -0.015em;
+    cursor: pointer;
+
+    color: #2F4858;
+}
+
+#textBox{
+    text-align: center;
+    padding:  0.4em;
+    margin: 0 auto;
+}
+
+textarea {
+    min-height: 50px;
+    resize: vertical;
+}
+
+
+#textLong, #textBox{
+    width: 612px;
+    align-items: center;
+    text-align: left;
+
+ }
+
+
+ form div input{
+    display: inline-block;
+    
+    margin-bottom: 15px;
+    width: 299px;
+ }
+
+ textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+
+
+}
+
+ input p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #2F4858;
+}
+
+.labelForCheckbox  {
+    padding-top: 1%;
+    text-align: start;
+    
+    position: relative;
+    margin-top: -1.4em;
+    line-height: 1.4em;
+}
+#checkbox{
+    width: auto;
+    margin-right: 3%;
+    margin-bottom: 2%;
+}
+
+
+
+.textItems textarea{
+    background:none;
+    max-height: 5px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+   
+    width: 612px;
+    
+        
+}
+
+input:last-child {
+    
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+
+    border: none;
+    background-color: rgb(255, 168, 0);  
+    padding-left:50px;
+    padding-right:50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+}
+
+
+#submitBTN{
+    margin: auto;
+    align-items: center;
+    width:auto;
+    text-align: center;
+    transform: scale(1.25);
+    }
+
+footer{
+
+    background: #2F4858;
+
+}
+
+
+.emptyDiv{
+    height: 163px;
+    display: flex;
+    align-items: center;
+
+}
+
+.ajustmentsFooter, .copyright{
+    padding-top: 2.5%;
+}
+
+
+.yellowContainer{
+    background-color: #FFCB66;
+    height: 363px;
+    width: 100%;
+}
+
+.yellowContainerBTM{
+    display: flex;
+    width: 100%;
+}
+
+.yellowContainerTop img{
+    height: 10%;
+    width: 100%;
+    
+}
+
+
+.yellowContainer h1{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 2%;
+
+    color: #2F4858;
+}
+
+.ajustmentsFooter{
+    display: flex;
+    
+    justify-content: space-around;
+    color: #FFFFFF;
+
+}
+
+.footerList  a{
+    height:45px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    display: block;
+    padding-left: 54px;
+    justify-content: space-between;
+
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+    overflow: hidden;
+
+
+}
+
+.copyright  {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-left: 5%;
+
+    padding-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #ffffff;
+}
+
+
+.bottomDiv a{
+    padding-top: 0.5%;
+    padding-right: 4%;
+    float: right;
+
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    
+    color: #ffffff;
+
+}
+
+footer h6{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.column4 p{
+   
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+}
+
+.column3, .column4{
+    height: 270px;
+    line-height: 1.6;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.column3 p{
+    line-height: 2;
+}
+
+.column4 p{
+    line-height: 1.45;
+}
+
+.column3 h6{
+        line-height: normal;
+}
+
+.socialLogo img{
+    float: right;
+    
+    padding:15px;
+    justify-content: space-around;
+
+}
+.socialLogo img:first-child{
+    padding-right: 0px;
+
+}
+
+#hidee{
+    visibility: hidden;
+}
+
+#copyright-hide{
+    display: none;
+
+}
+
+.navLogo{
+    display: none;
+    
+}
+
+.yellowContainer {    
+    align-content: center;
+
+}
+#mobile{
+    display: none;
+}
+
+.navElements-mobile{
+    display: none;
+}
+.navLogoX{
+    display: none;
+}
+
+#menuOverlay{
+    display: none;
+
+
+}
+
+/* ________________________________________________________________________ Main CSS Beigas _________________________________________ */
+
+/* omptimizācija planšetei */
+@media only screen and (max-width: 1000px){
+    .navElements{
+        display: none;
+    }
+
+    .navLogo{ 
+        visibility: visible;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 11%;
+        top: 4%;
+        right: 10.44%;
+        height: 3%;
+        width: 3%;
+    }
+
+    #menuOverlay{
+        display: none;
+    }
+}
+
+
+/* omptimizācija planšetei */
+
+@media only screen and (max-width: 768px)  {
+    .navElements{
+        visibility: hidden;
+    }
+  
+
+
+    .topLayer{
+        height: 20%;
+    }
+    
+    .navLogo{
+        visibility: visible;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 11%;
+        top: 8%;
+        right: 11%;
+        height: 3%;
+        width: 3%;
+
+    }
+    #logo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 17%;
+    top: 0%;
+    left: 79px;
+
+    }
+
+
+
+    .yellowContainer{
+        background-color: #FFCB66;
+        height: 229.85px;
+        width: 100%;
+    }
+
+    #logoPart {
+        padding-left: 6% ;
+        padding-right: 6% ;
+
+    }
+
+    #logoPart img {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 5% ;
+        min-height: 1%;
+        min-width: 1%;
+        padding-left: 3% ;
+        padding-right: 3% ;
+        max-width: 40%;
+        max-height: 53%;
+        padding:-10px ;
+    } 
+        
+    .footerList{
+        display: none;
+    }
+    
+    .column3{
+        display: none;
+    }
+
+    footer{
+        position: relative;
+    }
+
+    footer h6{
+        position: absolute;
+
+        left: 10.42%;
+        bottom: 21%;
+    }
+
+    #hidee{
+        position: relative;
+        text-align: right;
+        visibility: visible;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        cursor: pointer;
+    
+        color: #FFFFFF;
+        margin-top: -2%;
+    }
+
+    .copyright{
+        visibility: hidden;
+    }
+
+    #copyright-hide{
+        display: flex;
+        position: ;
+        align-items: left;
+        justify-content: left;
+        padding-left: 2%;
+        padding-bottom: 20px;
+        font-family: "Montserrat" , sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        padding-left: 6%;
+    }
+
+    .bottomDiv a{
+        padding-top: 14%;
+        padding-right: 7%;
+    
+        
+        color: #FFFFFF;
+
+    }
+    
+    .column4,.ajustmentsFooter {
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+
+    .column4 p{
+        padding-top:20% ;
+        padding-bottom: 0px;
+        margin-bottom: 0%;
+
+    }
+
+    
+
+    .navLogoX{
+        visibility: hidden;
+    }
+
+    .whitePartText{
+        padding: 10%;
+        padding-top: 20%;
+        padding-bottom: 19%;
+
+    }
+
+    .buttonPart{
+        padding-top: 20%;
+        padding-bottom: 19%;
+    }
+
+    .buttonPart h1{
+        padding-bottom:10% ;
+    }
+
+    .goldenLogo{
+        width: 162px;
+        height: 162px;
+        padding-top: 10px;
+    }
+
+
+
+    .bottomDiv{
+        
+
+    }
+}
+
+  
+  
+
+
+@media only screen and (max-width: 576px)  {
+
+    form, textarea{
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    #textBox, #textLong{
+        max-width: 300px ;
+
+    }
+
+    #checkbox{
+        position: absolute;
+        left: 3%;
+        background-color:gray ;
+    }
+
+    .labelForCheckbox{
+        padding-left:13% ;
+        padding-bottom:15% ;
+        padding-top: 5%;
+    }
+
+
+    #rippedCover1{
+        position: absolute;
+        margin-top:-434% ;
+
+    }
+
+
+    .buttonPart{
+        display: inline-block;
+        width: 554;
+        align-content: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        padding-left: 10%;
+
+    }
+
+    .column1{ 
+        width: 100%;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .column2{
+        padding-bottom: 20%;
+    }
+
+
+    .column1 div{ 
+        display: flex;
+        justify-content: center;
+        
+    }
+    .column2 div{ 
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .yellowContainerTop img{
+        height: 25%;
+        padding-top: 3%;
+    }
+
+}
+/* omptimizācija telefonam */
+@media only screen and (max-width: 320px)  {
+
+
+    .yellowContainer{
+        height: 380px;
+    }
+
+    .figure {
+
+        position: absolute;
+        left: 60%;
+        margin-left: -50px;
+        top: 70.1%;
+        margin-top: -50px;
+        width: 49px;
+        height: 36.26px;
+    }
+
+    .playBTN{
+        position: absolute;
+        left: 60%;
+        margin-left: -50px;
+        top: 70%;
+        margin-top: -50px;
+        width: 50px;
+        height: 48.26px;
+    }
+
+    .topLayer{
+        position: absolute;
+        top: 0%;
+        left: -3px;
+        height: 27%;
+        width: 150%;
+    }
+
+    #logo{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 25%;
+        top: 0;
+        left: 6%;
+    }
+
+
+    .navLogoX{
+        visibility: visible;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 5%;
+        top: 8%;
+        right: 6%;
+    }
+    .whitePartText{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 24%;
+        padding-bottom: 28%;
+    }
+    .whitePartText p{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #2F4858;
+    padding: 1px;
+    margin: 1px;
+
+    }
+    .buttonPart{
+        display: inline-block;
+        width: 315px;
+        align-content: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
+
+    }
+    .buttonPart h1{
+        padding-bottom: 1px;
+        
+        font-family: "Oswald";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+    }
+    
+    .column1{ 
+        font-family: "Oswald";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        width: 271px;
+
+        padding-top: 17%;
+        padding-bottom: 20%;
+    }
+    .column2{
+        padding-bottom: 20%;
+        padding-top: 8%;
+    }
+
+
+    .column1 div{ 
+        display: flex;
+        justify-content: center;
+        padding-left:0;
+
+    }
+    .column2 div{ 
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .saziniesArMums h1{
+        font-family: "Oswald", sans-serif; 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+    form, textarea{
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    #textBox, #textLong{
+        max-width: 300px ;
+
+    }
+
+    #checkbox{
+
+
+        position: absolute;
+        left: 3%;
+        background-color:gray ;
+    }
+    #submitBTN{
+        transform: scale(1)
+    }
+
+    .emptyDiv{
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .labelForCheckbox{
+        padding-left:13% ;
+        padding-bottom:15% ;
+        padding-top: 5%;
+    }
+
+    .submitBtnDiv {
+        display: flex ;
+        justify-content: center;
+        text-align: center;
+        padding-top: 0;
+    }
+  
+    .yellowContainerTop img{
+        height: 25%;
+        padding-top: 6%;
+    }
+
+    footer{
+        width: 483px;
+
+    }
+    .goldenLogo{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left:20px;
+        bottom: 35%;
+    }
+
+    #logoPart{
+        display: none;
+    }
+
+    #mobile{
+        display: flex;
+        justify-content: center;
+        max-width: 320px;
+        min-height: 280px;
+    }
+
+    .grid img{
+        
+        padding-left:10% ;
+
+        max-width: 65% !important ;
+        max-height: 65% !important ;
+        display: flex;
+        justify-content: center;
+        padding-top: 20%;
+
+    }
+
+    .lastLogo{
+        width: 58px;
+        height: 100px;
+
+    }
+
+
+
+    .yellowContainer h1{
+        text-align: left !important;
+        padding-left: 20%;
+        padding-top: 14%;
+        margin: auto;
+
+    }
+
+
+    footer h6{
+        position: absolute;
+        left: 5%;
+        bottom: 28%;
+
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .column4{
+        padding-top: 25%;
+    padding-right: 55%;
+
+    }
+    .column4 p{
+        text-align: left;
+        font-size: 12px;
+        font-weight: bold !important;
+    
+    }
+    .column4  a {
+        text-decoration: none !important;
+        font-family: "Montserrat", sans-serif !important;
+        font-style: normal !important;
+        font-weight: bold !important;
+        font-size: 14px !important;
+        line-height: 17px !important;
+        
+        color: #FFFFFF !important;
+    }
+
+
+    /* socialo tiklu logo mobila versija */
+    .socialLogo img:first-child{
+        position: absolute;
+        bottom: 4%;
+        left: 9%;
+        min-height: 25px;
+        min-width: 25px;
+    }
+
+    .socialLogo img:last-child{
+        position: absolute;
+        bottom: 4%;
+        left: 0%;
+        min-height: 25px;
+        min-width: 12px;
+    }
+    /* \_____________________/ */
+
+
+    #copyright-hide{
+        font-size: 11px;
+        padding-bottom: 5%;
+        margin: 0;
+    }
+
+    .bottomDiv a{
+        position: absolute;
+        text-align: left;
+        font-size: 11px;
+        bottom: 1%;
+        left: 6%;
+    }
+
+    .gridForPic{
+        max-height: 25%;
+
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    #rippedCover1{
+        position: absolute;
+        margin-top:-434% ;
+
+    }
+
+    .navLogo{
+        display: none;
+    }
+}
+  

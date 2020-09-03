@@ -1,0 +1,603 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+
+#logo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 17%;
+    top: 0%;
+    left: 62px;
+}
+#hideForMobile{
+    height: 100%;
+    width: 100%;
+}
+
+/* ________________________________________________________________________ Main CSS Beigas _________________________________________ */
+
+/* omptimizācija planšetei */
+@media only screen and (max-width: 1000px){
+    #hideForMobile{
+        display: none;
+    }
+    .navElements{
+        display: none;
+    }
+
+    .navLogo{ 
+        visibility: visible;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 11%;
+        top: 4%;
+        right: 10.44%;
+        height: 3%;
+        width: 4%;
+    }
+
+    #menuOverlay{
+        visibility: visible;
+    }
+
+    
+
+
+    .navLogoX{
+        visibility: visible;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 11%;
+        top: 3%;
+        right: 10%;
+        height: 4%;
+        width: 3%;
+
+    }
+    
+    
+      
+    #menuOverlay{
+        visibility: visible;
+        
+    }
+    
+    
+    .language {
+        display: flex;
+        box-sizing: border-box;
+        align-items: center;
+        margin-top: 20% ;
+        margin-bottom: 5%;
+        
+    }
+
+
+    .language li {
+        display: flex;
+        padding-left: 5% ;
+        padding-right: 5% ;
+
+
+    
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+
+        color: #000000;
+    }
+    .language :last-child{
+        padding-right:30%;
+    }
+    .language :first-child{
+        padding-left:30%;
+    }
+
+    .language  li{
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .language  li:before {
+
+        content: '';
+        position: absolute;
+        top:95%;
+        
+        
+        width: 8%;
+        height: 3px;
+        background: #FFA800;
+        transform: translateY(-55%) scaleX(0);
+        transform-origin: right;
+        transition: 0.5s transform;
+       
+    }
+
+    .language  li:hover:before{
+        transform: translateY(-50%) scaleX(1);
+        transform-origin: left;
+        transition: 0.5s transform;
+    }
+    
+    #menuOverlay ul li{
+        position: relative;
+        list-style: none;
+        text-align: center;    
+        display: block;    
+    }
+
+    #menuOverlay ul li a{
+        position: relative;
+        text-decoration: none;
+        padding: 5% 10px;
+        display: block;
+
+
+
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+
+        color: #000000;
+
+    }
+
+    #menuOverlay  ul li a:before  {
+        content: '';
+        position: absolute;
+        top:95%;
+        left: 40%;
+        width: 20%;
+        height: 3px;
+        background: #FFA800;
+        transform: translateY(-50%) scaleX(0);
+        transform-origin: right;
+        transition: 0.5s transform;
+
+    }
+
+    #menuOverlay  ul li a:hover:before{
+        transform: translateY(-50%) scaleX(1);
+        transform-origin: left;
+        transition: 0.5s transform;
+    }
+    
+    
+    
+           
+    
+        
+}
+
+
+/* omptimizācija planšetei */
+@media only screen and (max-width: 768px)  {
+
+    #hideForMobile{
+        display: none;
+    }
+
+    .navLogoX{
+        visibility: visible;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 11%;
+        top: 3%;
+        right: 12%;
+        height: 3%;
+        width: 3%;
+
+    }
+
+
+  
+    #menuOverlay{
+        visibility: visible;
+        
+    }
+ 
+    
+    .language 
+    {
+        display: flex;
+        box-sizing: border-box;
+        align-items: center;
+        margin-top: 26% ;
+        margin-bottom: 5%;
+        
+    }
+
+
+    .language li {
+        display: flex;
+        padding-left: 5% ;
+        padding-right: 5% ;
+
+
+  
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+
+        color: #000000;
+    }
+    .language :last-child{
+        padding-right:30%;
+    }
+    .language :first-child{
+        padding-left:30%;
+    }
+
+    .language  li{
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+  
+    #menuOverlay ul li{
+        position: relative;
+        list-style: none;
+        text-align: center;    
+        display: block;    
+    }
+
+    #menuOverlay ul li a{
+        position: relative;
+        text-decoration: none;
+        padding: 5% 10px;
+        display: block;
+
+
+
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+
+        color: #000000;
+
+    }
+
+    #menuOverlay  ul li a::before  {
+        content: '';
+        position: absolute;
+        top:95%;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: #FFA800;
+        transform: translateY(-50%) scaleX(0);
+        transform-origin: right;
+        transition: 0.5s transform;
+
+    }
+
+    #menuOverlay  ul li a:hover:before{
+        transform: translateY(-50%) scaleX(1);
+        transform-origin: left;
+        transition: 0.5s transform;
+    }
+
+
+    #menuOverlay  ul li a:before  {
+        content: '';
+        position: absolute;
+        top:95%;
+        left: 35%;
+        width: 30%;
+        height: 3px;
+        background: #FFA800;
+        transform: translateY(-50%) scaleX(0);
+        transform-origin: right;
+        transition: 0.5s transform;
+
+    }
+    .language  li a:before  {
+        content: '';
+        position: absolute;
+        top:95%;
+        left: 30%;
+        width: 40%;
+        height: 3px;
+        background: #FFA800;
+        transform: translateY(-50%) scaleX(0);
+        transform-origin: right;
+        transition: 0.5s transform;
+
+    }
+
+    #logo{
+        left: 79px;
+
+    }
+    .navLogoX{
+        top: 7%;
+        right: 10%;
+        height: 4%;
+        width: 3%;
+
+    }
+       
+
+    }
+
+
+
+
+
+
+
+
+  
+
+
+@media only screen and (max-width: 576px)  {
+    #hideForMobile{
+        display: none;
+    }
+
+    .language {
+        display: flex;
+        box-sizing: border-box;
+        align-items: center;
+        margin-top: 20% ;
+        margin-bottom: 5%;
+        margin-right: auto;
+        margin-left: auto;
+
+        
+        
+    }
+
+
+    .language  {
+        display: flex;
+        padding-left: 5% ;
+        padding-right: 5% ;
+
+
+  
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+
+        color: #000000;
+    }
+    .language:last-child{
+        padding-right: 30%;
+    }
+    .language:first-child{
+        padding-left: 25%;
+    }
+
+
+    .language li{
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+
+        color: #000000;
+    }
+  
+
+
+    #menuOverlay  ul li a:before  {
+        content: '';
+        position: absolute;
+        top:95%;
+        left: 35%;
+        width: 30%;
+        height: 3px;
+        background: #FFA800;
+        transform: translateY(-50%) scaleX(0);
+        transform-origin: right;
+        transition: 0.5s transform;
+
+    }
+    .language  li a:before  {
+        content: '';
+        position: absolute;
+        top:95%;
+        left: 30%;
+        width: 40%;
+        height: 3px;
+        background: #FFA800;
+        transform: translateY(-50%) scaleX(0);
+        transform-origin: right;
+        transition: 0.5s transform;
+
+    }
+  
+}
+/* omptimizācija telefonam */
+@media only screen and (max-width: 320px)  {
+    #hideForMobile{
+        display: none;
+    }
+
+    #logo{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 25%;
+        top: 0;
+        left: 6%;
+    }
+
+    .navLogoX{
+        visibility: visible;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 5%;
+        height: 5%;
+        top: 5%;
+        right: 7%;
+    }
+    
+
+    
+    #menuOverlay{
+        padding-top: 25%;
+        visibility: visible;
+        
+    }
+    
+    
+    .language 
+    {
+        display: flex;
+        box-sizing: border-box;
+        align-items: center;
+        margin-top: 4%;
+        margin-bottom: 7%;
+        
+    }
+/*  */
+
+    .language li  a{
+        display: flex;
+        padding-left: 5% ;
+        padding-right: 5% ;
+
+
+    
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+        color: #000000;
+    }
+    .language li :last-child{
+        padding-right: 30%%;
+    
+    }
+    
+    .language li:first-child{
+        padding-left: 0% 
+    }
+    
+
+    .language  li{
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+        color: #000000;
+    }
+  
+    
+    #menuOverlay ul li{
+        position: relative;
+        list-style: none;
+        text-align: center;    
+        display: block;    
+    }
+
+    #menuOverlay ul li a{
+        position: relative;
+        text-decoration: none;
+        padding: 8% 10px;
+        display: block;
+
+
+
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+        color: #000000;
+
+    }
+
+    #menuOverlay  ul li a:before  {
+        content: '';
+        position: absolute;
+        top:95%;
+        left: 25%;
+        width: 50%;
+        height: 3px;
+        background: #FFA800;
+        transform: translateY(-50%) scaleX(0);
+        transform-origin: right;
+        transition: 0.5s transform;
+
+    }
+    .language  li a:before  {
+        content: '';
+        position: absolute;
+        top:95%;
+        left: 25%;
+        width: 50%;
+        height: 3px;
+        background: #FFA800;
+        transform: translateY(-50%) scaleX(0);
+        transform-origin: right;
+        transition: 0.5s transform;
+
+    }
+       
+    
+    
+    
+    
+           
+    
+        
+
+
+
+
+}
+  

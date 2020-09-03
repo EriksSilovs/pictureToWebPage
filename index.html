@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css"> 
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <title>Sparkle HEART</title>
+
+
+  <style> 
+   /* fona bilde izmantota kā background  */
+   .cont {
+     background-image: url("img/Sparkle_Video.png");
+     position: relative;
+    
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+   
+     height: 100%;
+     width: 100%
+   }
+   
+   
+   
+   @media only screen and (max-width: 1366px) {  
+     /*  planšete */
+    .cont {
+    background-image: url("img/Sparkle_Video.png");
+     position: relative;
+    
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+   
+     height: 77.5%;
+     width: 100%
+   
+    }
+   
+   }
+
+
+   @media only screen and (max-width: 768px) {  
+     /*  planšete */
+    .cont {
+    background-image: url("img/Sparkle_Video.png");
+     position: relative;
+    
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+   
+    width: 768px;
+    height: 474px;
+   
+    }
+   
+   }
+   
+   
+   @media only screen and (max-width: 576px)  {
+    /* maza planšete vai liels telefons */
+    .cont {
+      background-image: url("img/Sparkle_Video.png");
+     position: relative;
+    
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+   
+   
+    max-width: 555px;
+    max-height: 400.5px;
+    }
+   }
+     
+   @media only screen and (max-width: 320px) {  
+   /* telefons */
+     .cont {
+    background-image: url("img/Sparkle_Video.png");
+     position: relative;
+    
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+   
+    max-width: 320px;
+    max-height: 220px;
+   
+    }
+   }
+   </style>
+   
+</head>
+
+<body>
+
+
+
+
+<div class="cont">
+
+  <div class="videoPart">
+        <!-- paly pogas izveide -->
+   <img class="figure" src="img/Ellipse 5.svg" alt="Play">
+   <a href="https://www.facebook.com/sparkleheartLV/videos/2355375954728669">
+    <img class="playBTN" src="img/playBTN.svg" alt="Play"> 
+   </a> 
+</div>
+  
+<header> 
+
+   <!-- nav joslas bilde lai būtu noplēstas lapas efekts -->
+   <img class="topLayer" src="img/Asset 1.png" alt=""> 
+
+   <div class="HeaderPart">
+     
+   <img id="logo" src="img/BlackLogo 3.png" alt="Sparkle_Heart_Logo">
+   <a href="menu.html"> <img class="navLogo" src="img/burger.png" alt="navigation-item"> </a>  
+   <a href="menu.html"> <img class="navLogoX" src="img/vector_X.png" alt="navigation-item"></a>
+
+   <!-- navigation josla -->
+  <div class="navElements">
+
+       <a class="a" href="#">Ideja </a>
+       <a class="b" href="#">Piesaki Sapni </a>
+       <a class="c" href="#">Uzņēmējiem </a>
+       <a class="d" href="#">Sapņu banka </a>
+       <a class="e" href="#">Sapņus atbalsta </a>
+       <a class="f" href="#">99 Iedvesmas stāsti </a>
+
+   <select name="language" id="lang ">
+    <ul>
+      <option >  <li>ENG</li> </option>
+      <option selected="selected">   <li>LV</li> </option> 
+      <option>  <li>RU</li> </option> 
+    </ul>
+   </select>
+
+  </div>
+
+
+<div id="menuOverlay">
+ <ul id="navElements">
+
+       <a class="a" href="#">Ideja</a>
+       <a class="b" href="#">Piesaki Sapni</a>
+       <a class="c" href="#">Uzņēmējiem</a>
+       <a class="d" href="#">Sapņu banka</a>
+       <a class="e" href="#">Sapņus atbalsta</a>
+       <a class="f" href="#">99 Iedvesmas stāsti</a>
+
+   <select name="language" id="lang ">
+    <ul>
+      <option >  <li>ENG</li> </option>
+      <option selected="selected">   <li>LV</li> </option> 
+      <option>  <li>RU</li> </option> 
+    </ul>
+   </select>
+
+  <ul>
+</div>
+
+
+
+       
+</header>
+  </div>       <!-- container  kur ir bilde beidzas -->
+
+
+<!-- jauns container text daļa  -->
+<div class="whitePartText">
+    <p>SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat 
+       pārdrošākos sapņus. Šeit satiekas sapņotāji un viņu atbalstītāji - 
+       uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par 
+      labāku vietu mums visiem. Mēs esam gatavi palīdzēt Tev piepildīt sapni. 
+      Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.
+    </p>
+</div>
+   <!-- text daļa beidzās _/ -->
+
+
+   <!-- bilu daļa sākās -->
+<div class="picturePart">
+ 
+  <div class="gridForPic">
+
+    <div class="container-fluid noPading">
+
+      <div class="row noPading">
+
+      <div class="col-sm noPading" >
+          <img src="img/Zanda_1.jpg" alt="girl_Traveling">
+        </div>
+       <div class="col-sm noPading">
+          <img src="img/Sibilla_4.jpg" alt="girl_and_dog">
+      </div>
+      
+        <div id="pictures2" class="col-sm noPading">
+
+              <div class="row noPading">
+                  <div class="col-sm noPading">
+                      <img class="smallImage1" src="img/Brinuma_meita-15.jpg" alt="Celebrations">
+                  </div>
+              </div>
+
+              <div class="row noPading">
+                  <div class="col-sm noPading">
+                      <img class="smallImage2" src="img/Alina_1 1.jpg" alt="girl_in_the_city">
+                  </div>
+              </div>
+              
+        </div>
+
+        <div class="col-sm noPading">
+          <img class="lastImg" src="img/Anda_2 1.jpg" alt="couple_next_to_the_sea">
+        </div>
+
+      </div>
+    </div>
+
+ </div>
+
+ <!-- augša un apakša bilu kolāzai, lai bū†u plēstais efekts -->
+ <img id="rippedCover1" src="img/ripped 6.png" alt="">
+  <img class="rippedCover2" src="img/ripped 6.png" alt="">
+  
+<!-- / -->
+
+<!--  lielās pogas tiek izveidotas -->
+<div class="buttonPart">
+
+  <div class="column1">
+    <h1>VĒLIES PIEPILDĪT SAVU SAPNI?</h1>
+    <div> <button>Sapņotājiem</button> </div>
+  </div>
+
+  <div class="column2">
+    <h1>VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI?</h1>
+    <div> <button>Uzņēmējiem</button> </div>
+  </div>
+
+</div>   
+<!-- container beidzās/ -->
+
+<!-- tiek izveidot blanka -->
+
+<div class="saziniesArMums">
+  <h1>SAZINIES AR MUMS</h1>
+</div>
+
+<div id="BefSutit" style="text-align:center">
+
+<form method="POST">
+
+   <div >
+    <input class="rounded" type="text" name="firstNameLastName" placeholder="Vārds, Uzvārds*" required>
+    <input class="rounded" type="email" name="email"  placeholder="E-pasts*" required> <br>
+   </div>
+
+  <div style="text-align:center">
+    <input class="rounded" id="textLong" type="tel"  name="tel" min="8" placeholder="Telefons*" required><br>
+  </div>
+
+    <textarea  class="rounded" rows="4" cols="50" placeholder="Jautājums, vai komentārs*" id="textBox">
+    </textarea>
+  <br>
+
+<div class="textItems">
+  <!-- tiek izveidots lauks *obligāti aizpiildāmie lauki, izveidots kā blankas logs, lai būtut vienlaicīgi tik pat responsīvs kā visi pārējie blankas logi -->
+ <textarea   rows="4" cols="50"  placeholder="* obligāti aizpildāmie lauki" id="textBox1" disabled ></textarea>     <!-- disabled text area   -->
+
+ <input class="rounded" id="checkbox" type="checkbox" />
+ <label for="checkbox" class="labelForCheckbox">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks <br>
+  saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
+  <br>
+
+</div>
+<!-- sūtīt poga -->
+<div class="submitBtnDiv">
+ <input  id="submitBTN" type="submit" value="Sūtīt" >
+</div>
+
+</form>
+</div>
+<!-- forma beidzās/ -->
+  
+<div class="emptyDiv">
+<!-- lai būtu atstarpe strap blanku un nākamo png failu -->
+</div>
+</div>
+
+<div class="yellowContainerTop">
+    <!-- png bilde kas nodrošina plēstas lapas izskatu -->
+    <img  src="img/Asset Top 2.png" alt=""> 
+</div>
+
+<footer> 
+
+</div>
+<div class="yellowContainer">
+
+  <h1>ATBALSTĪTĀJI</h1>
+
+ <div>
+    <!-- konteneri iet viens otram pāri, lai nodrošinatu to ka tiek nosegts fons ar png failu -->
+</div> 
+       
+<div id="logoPart"> 
+        <!-- logo daļa ar atbalstītājiem -->
+    <img src="img/getlogo 1.png" alt="Teikums_logo">
+   
+    <img src="img/sem_logo-2 1.png" alt="SEM_logo">
+  
+    <img src="img/Citybee-logo 1.png" alt="Citybee_logo">
+   
+    <img src="img/logo1 1.png" alt="Linearis_logo">
+
+</div>
+
+           <!-- desktop div beigas -->
+
+<div id="mobile">
+
+  <div class="grid">
+
+   <img src="img/getlogo 1.png" alt="Teikums_logo">
+
+   <img src="img/Citybee-logo 1.png" alt="Citybee_logo">
+         
+</div>
+
+  <div class="grid">
+           
+   <img src="img/sem_logo-2 1.png" alt="SEM_logo">
+  
+   <img class="lastLogo" src="img/logo1 1.png" alt="Linearis_logo">
+    
+  </div>
+
+</div>
+  <!-- mob div beigas/ -->
+      
+
+        
+        
+</div>
+<!-- png fails kas izveido dzelteno plēstas lapas efektu -->
+  <img  class="yellowContainerBTM" src="img/Asset BTM.png" alt=""> 
+
+  <div class="ajustmentsFooter">
+    <div>
+      
+     <img class="goldenLogo" src="img/GoldenV2Logo 3.png" alt="Sparkle_golen_logo">
+
+  </div>
+
+  <!-- footer kolonna no kreisās tiek izveidota  -->
+<div class="footerList">
+
+  <a href="#">Ideja</a>
+  <a href="#">Piesaki Sapni</a>
+  <a href="#">Uzņēmējiem</a>
+  <a href="#">Sapņu banka</a>
+  <a href="#">Sapņus atbalsta</a>
+  <a href="#">99 Iedvesmas stāsti</a>
+
+</div>
+
+<div class="column3">
+
+   <h6>Biedrība SparkleHeart</h6> <br>
+   <p>Reģistrācijas nr. 40008293119 <br>
+     Banka: SWEDBANK A/S <br>
+     LV52HABA0551047652465
+   </p>
+
+</div>
+
+<div class="column4">
+  <h6 >Juris Gogulis</h6> <br>
+   <p>juris.gogulis@sparkleheart.org <br>
+     +37126890034 <br>
+     Biķernieku iela 24a - 5, LV-1006 <br>
+
+     <a href="#" id="hidee">Skatīt rekvizītus</a>
+     <!-- tiek iekļāuta poga lai būtu vienāds noformējums  -->
+   </p>
+
+
+
+  <div class="socialLogo">
+
+    <img src="img/instagram.png" alt="instagram_logo">
+    <img src="img/facebook.png" alt="facebook_logo">
+
+  </div>
+
+</div>
+
+</div>
+
+   
+<div class="bottomDiv">
+ 
+    
+  <a href="#">Privātuma politika</a>
+  
+
+  <p class="copyright">© SparkleHeart 2020. <br> 
+    Visas tiesības aizsargātas.</p>
+    <!-- tiek izveidotas 2 versijas lai bū†u viens noformējums priekš mbilās versijas  atstarpes " br "" dēļ-->
+  <p id="copyright-hide">© SparkleHeart 2020. 
+    Visas tiesības aizsargātas.</p>
+   
+</div>
+</div>
+
+</footer>
+
+
+
+<!-- html lapas beigas -->
+ 
+
+<!-- skripts nodrošina valodas izvēles iespējas -->
+<script>
+  $( "#lang  option:selected" ).text();
+</script>
+
+
+
+</body>
+</html>
